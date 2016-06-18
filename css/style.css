@@ -1,10 +1,56 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+body{
+
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #838994;
+	letter-spacing: 0.03em;
+	-webkit-font-smoothing:antialiased;
+}
 
 
 .top-navigation {
     background-color: #fff;
+    
+
 }
+
 .top-navigation > .content {
     width: 970px;
     height: 70px;
     margin: 0 auto;
+    padding: 10px 15px;
+}
+
+.top-navigation > .logo{
+
+}
+
+
+.content > .links {
+	list-style-type: none;	
+	float: right;
+	
+}
+
+.links > .active {
+	color:#4c5058;
+	font-weight:500;
+}
+
+.links > li {
+	display: inline;
+	padding-left: 10px;
+}
+
+.links > li:hover,
+.links > li:focus{
+	color: darkgray;
 }
