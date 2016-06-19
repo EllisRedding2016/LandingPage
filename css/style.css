@@ -15,6 +15,13 @@ body{
 	color: #838994;
 	letter-spacing: 0.03em;
 	-webkit-font-smoothing:antialiased;
+	list-style-type: none;	
+	box-sizing:border-box;
+	vertical-align:baseline;
+	margin:0;
+	padding:0;
+	border:0;
+
 }
 
 
@@ -32,12 +39,17 @@ body{
     height: 70px;
     margin: 0 auto;
     padding: 10px 15px;
+    list-style-type: none;
 }
 
 .top-navigation > .logo{
 
 }
 
+ol, ul {
+	list-style:none;
+
+}
 
 .content > .links {
 	list-style-type: none;	
@@ -109,7 +121,7 @@ button:hover{
 
 .secondary{
 	display: inline-block;	
-	
+	border-bottom: 25rem;
 }
 
 h2{
@@ -146,4 +158,53 @@ p{
 	margin:0 auto;
 	color: black;
 	
+}
+
+.social{
+	padding-bottom:10rem;
+	display:inline;
+	text-align:center;
+	
+	background-color:#fff;
+	
+
+}
+
+.social hr {
+	border:0;
+	border-top:3px solid #eaebec;
+	margin-top:5.313rem;
+}
+.social .icons > li{
+	border-radius: 1.25rem;
+	width: 2.5rem;
+	height:2.5rem;
+	margin:1.25rem 5px;
+	border: 3px solid #eaebec;
+	padding: 0.625rem 0;
+	display:inline-block;
+	text-align:center;
+}
+
+.social .twitter {
+	color:#55acee;
+}
+
+.social .facebook {
+	color:#4c66a4;
+}
+
+.social .instagram{
+	color: #3f729b;
+}
+
+.center >p{
+	font-size:1em;
+}
+
+.social .copy{
+	font-size: 0.9rem;
+	font-weight:300;
+	padding-bottom: 7rem;
+
 }
