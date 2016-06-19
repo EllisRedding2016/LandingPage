@@ -1,6 +1,8 @@
 html {
   box-sizing: border-box;
 }
+
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -22,7 +24,7 @@ body{
 
 }
 
-.top-navigation > .content {
+.content {
     width: 970px;
     height: 70px;
     margin: 0 auto;
@@ -52,5 +54,52 @@ body{
 
 .links > li:hover,
 .links > li:focus{
-	color: darkgray;
+	color: black;
+}
+
+.main{
+	
+	background-image: url('../images/background.jpg');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size:cover;
+	height:45.938rem;
+	margin: 0 auto;
+	background-position:0 bottom;
+	color: white;
+	text-align: center;
+	padding-top: 15rem;
+	
+}
+
+h1{
+	font-size: 3rem;
+	font-weight: lighter;
+}
+
+h3{
+	font-size: 1.35rem;
+	font-weight: lighter;
+}	
+
+button{
+	text-shadow:none;
+	border-style:none;
+	border-radius: 4px;
+	padding: 1rem 1.5rem;
+	display: block;
+	width: 10rem;
+	height: 3.5rem;
+	font-size:1.25em;
+	color:white;
+	background-color: #F15B2A;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom:10px;
+
+
+}
+
+button:hover{
+	background-color:#B42B00;
 }
