@@ -20,6 +20,9 @@ body{
 
 .top-navigation {
     background-color: #fff;
+    position:fixed;
+    width:100%;
+    z-index:9999;
     
 
 }
@@ -102,4 +105,45 @@ button{
 
 button:hover{
 	background-color:#B42B00;
+}
+
+.secondary{
+	display: inline-block;	
+	
+}
+
+h2{
+	text-align: center;
+	color:black;
+	font-weight:lighter;
+	font-size: 2.5rem;
+	padding-top:8rem;
+	padding-left: 35rem;
+	padding-bottom:4rem;
+}
+.devices{
+	float:left;
+	width: 25rem;
+	margin-left: 33rem;
+	
+}
+
+.coffee{
+	float:left;
+	width: 22rem;
+	padding-left:-15rem;
+	margin-left: 0rem;
+	
+}
+
+.refill{
+	float:left;
+	
+}
+
+p{
+	font-size:1.5rem;
+	margin:0 auto;
+	color: black;
+	
 }
