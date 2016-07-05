@@ -36,7 +36,7 @@ body{
 
 .content {
     width: 970px;
-    height: 70px;
+    height: 100px;
     margin: 0 auto;
     padding: 10px 15px;
     list-style-type: none;
@@ -64,7 +64,9 @@ ol, ul {
 
 .links > li {
 	display: inline;
-	padding-left: 10px;
+	padding-left: 30px;
+	font-size: 1.5rem;
+
 }
 
 .links > li:hover,
@@ -78,7 +80,7 @@ ol, ul {
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-size:cover;
-	height:45.938rem;
+	height:60rem;
 	margin: 0 auto;
 	background-position:0 bottom;
 	color: white;
@@ -88,13 +90,14 @@ ol, ul {
 }
 
 h1{
-	font-size: 3rem;
+	font-size: 4.5rem;
 	font-weight: lighter;
 }
 
 h3{
-	font-size: 1.35rem;
 	font-weight: lighter;
+	color: black;
+
 }	
 
 button{
@@ -120,41 +123,43 @@ button:hover{
 }
 
 .secondary{
-	display: inline-block;	
+	margin: 0 auto;
 	border-bottom: 25rem;
+	min-width: 37.5rem;
+}
+
+.secondary ul{
+	text-align: center;
 }
 
 h2{
 	text-align: center;
 	color:black;
 	font-weight:lighter;
-	font-size: 2.5rem;
+	font-size: 3.75rem;
 	padding-top:8rem;
-	padding-left: 35rem;
 	padding-bottom:4rem;
 }
-.devices{
-	float:left;
-	width: 25rem;
-	margin-left: 33rem;
-	
+
+.secondary ul > li{
+	width:33%;
+	float: left;
 }
 
-.coffee{
-	float:left;
-	width: 22rem;
-	padding-left:-15rem;
-	margin-left: 0rem;
+h3{
+	font-size: 2.2rem;
+	margin-top:2.5rem;
+	margin-bottom: 2rem;
 	
+}
+.secondary ul li > img{	
+	width: 175px;	
+	margin: auto;
 }
 
-.refill{
-	float:left;
-	
-}
 
 p{
-	font-size:1.5rem;
+	font-size:2rem;
 	margin:0 auto;
 	color: black;
 	
@@ -199,7 +204,7 @@ p{
 }
 
 .center >p{
-	font-size:1em;
+	font-size:1.3em;
 }
 
 .social .copy{
@@ -208,3 +213,10 @@ p{
 	padding-bottom: 7rem;
 
 }
+
+@media screen and (min-width: 48rem)
+{	.content, .secondary{width:46rem;}}
+@media screen and (min-width: 62rem)
+{	.content, .secondary{width:60rem;}}
+@media screen and (min-width: 75rem)
+{	.content, .secondary{width:60%;}}
